@@ -1,6 +1,6 @@
 @font-face {
     font-family: "AMRIS";
-    src: url("/成品3/fonts/icomoon.woff") format("woff");
+    src: url("icomoon.woff") format("woff");
 }
 
 body {
