@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动漫字体转换器 - 关于我转生变成史莱姆这档事</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h2>请输入待转换的文字 | <span style="font-family: AMRIS">Please input here</span></h2>
+
+    <input type='text' id="in" onchange="into()">
+    <p></p>
+    <br />
+    <p id="res"></p>
+    <script>
+        function into(){
+            var t = document.getElementById("in").value;
+            document.getElementById("res").innerHTML = t;
+        }
+    </script>
+</body>
+</html>

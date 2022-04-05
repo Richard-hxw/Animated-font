@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "AMRIS";
+    src: url("/成品3/fonts/icomoon.woff") format("woff");
+}
+
+body {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+input {
+    width: 90%;
+    height : 2.5cm;
+}
+
+#res {
+    font-family: "AMRIS";
+}
+
+p {
+    font-size: 33px;
+}
+input {
+    font-size: 33px;
+}
